@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      class="nav_icones_linkedin"
+      src="https://code.iconify.design/2/2.1.0/iconify.min.js"
+    ></script>
+    <script
+      class="nav_icones_github"
+      src="https://code.iconify.design/2/2.1.0/iconify.min.js"
+    ></script>
+    <link rel="stylesheet" href="assets/css/base/base.css" />
+    <link rel="stylesheet" href="assets/css/base/reset.css" />
+    <title>Quanto Deu?</title>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav_icones">
+        <!-- <span
+          class="iconify nav_icones_linkedin"
+          data-icon="akar-icons:linkedin-box-fill"
+          style="color: #d09591; font-size: 1.5rem"
+        ></span> -->
+        <a href="https://www.github.com/jlhmtt"
+          ><span
+            class="iconify nav_icones_github"
+            data-icon="akar-icons:github-fill"
+            style="color: #d09591; font-size: 1.5rem"
+          ></span
+        ></a>
+      </div>
+    </header>
+    <main>
+      <h1 class="titulo">quanto deu?</h1>
+      <section class="formulario">
+        <input
+          type="number"
+          name="total"
+          id="total"
+          placeholder="total a pagar"
+        />
+        <div class="pessoas">
+          <p class="pessoas_titulo">quantas pessoas vão pagar?</p>
+          <input type="number" name="pessoas" id="pessoas" value="1" step="1" />
+        </div>
+        <div class="taxa">
+          <p class="taxa_titulo">quanto é a taxa de serviço?</p>
+          <input type="number" name="taxa" id="taxa" value="10" step="0.1" />
+        </div>
+        <button class="calcular" type="submit">calcular</button>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
