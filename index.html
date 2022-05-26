@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/base/variaveis.css" />
     <link rel="stylesheet" href="assets/css/header/nav.css" />
     <link rel="stylesheet" href="assets/css/main/titulo.css" />
+    <link rel="stylesheet" href="assets/css/main/formulario.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <title>Quanto Deu?</title>
   </head>
@@ -47,20 +48,44 @@
       <h1 class="titulo">quanto deu?</h1>
       <section class="formulario">
         <input
+          class="total input"
           type="number"
           name="total"
           id="total"
           placeholder="total a pagar"
+          aria-placeholder="total a pagar"
         />
-        <div class="pessoas">
+        <div class="pessoas input">
           <p class="pessoas_titulo">quantas pessoas vão pagar?</p>
-          <input type="number" name="pessoas" id="pessoas" value="1" step="1" />
+          <div class="pessoas_container container">
+            <input class="botao botao_lateral" type="button" value="-" />
+            <input
+              class="pessoas_input"
+              type="number"
+              name="pessoas"
+              id="pessoas"
+              value="1"
+              step="1"
+            />
+            <input class="botao botao_lateral" type="button" value="+" />
+          </div>
         </div>
-        <div class="taxa">
+        <div class="taxa input">
           <p class="taxa_titulo">quanto é a taxa de serviço?</p>
-          <input type="number" name="taxa" id="taxa" value="10" step="0.1" />
+          <div class="taxa_container container">
+            <input class="botao botao_lateral" type="button" value="-" />
+            <input
+              class="taxa_input"
+              type="number"
+              name="taxa"
+              id="taxa"
+              value="10"
+              step="0.1"
+            />
+            <input class="botao botao_lateral" type="button" value="+" />
+          </div>
         </div>
-        <button class="calcular" type="submit">calcular</button>
+        <button class="botao botao_calcular" type="submit">calcular</button>
       </section>
     </main>
     <footer></footer>

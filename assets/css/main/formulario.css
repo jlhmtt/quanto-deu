@@ -1,0 +1,82 @@
+.formulario {
+  width: 20rem;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  row-gap: 2.25rem;
+}
+
+.input {
+  display: grid;
+  row-gap: 0.75rem;
+}
+
+.total {
+  width: 14rem;
+  height: 4rem;
+  background-color: var(--borda-fonte);
+  border: 4px solid var(--bordas);
+  border-radius: 5px;
+  color: var(--fonte);
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 auto;
+}
+
+::placeholder {
+  color: var(--fonte);
+  opacity: 90%;
+}
+
+.pessoas_titulo,
+.taxa_titulo {
+  font-size: 1.5rem;
+  font-weight: 600px;
+  color: var(--fonte);
+}
+
+.botao {
+  background-color: var(--borda-fonte);
+  border: 4px solid var(--bordas);
+  border-radius: 5px;
+  color: var(--fonte);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.botao_lateral {
+  font-size: 2.25rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.botao_calcular {
+  font-size: 1.75rem;
+  height: 4rem;
+  width: 11rem;
+  margin: 0 auto;
+}
+
+.container {
+  display: inline-block;
+}
+
+.pessoas_input,
+.taxa_input {
+  width: 6.25rem;
+  height: 4rem;
+  background-color: var(--borda-fonte);
+  border: 4px solid var(--bordas);
+  border-radius: 5px;
+  color: var(--fonte);
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 1.25rem;
+}
