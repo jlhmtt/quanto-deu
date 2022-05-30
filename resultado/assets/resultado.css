@@ -1,6 +1,11 @@
+.titulo {
+  padding-bottom: 0;
+  margin-bottom: 12vh;
+}
+
 .resultado_destaque-container {
   height: 4rem;
-  width: 80%;
+  width: 75%;
 
   background-color: var(--borda-fonte);
   border: 4px solid var(--bordas);
@@ -53,11 +58,7 @@
 .centralizar {
   display: flex;
   justify-content: center;
-  margin-top: 10vh;
-  margin-bottom: 4rem;
-}
 
-.titulo {
-  padding-bottom: 0;
-  margin-bottom: 12vh;
+  margin-top: 10vh;
+  margin-bottom: 2rem;
 }
