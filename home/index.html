@@ -49,22 +49,38 @@
         <div class="pessoas input">
           <p class="pessoas_titulo">quantas pessoas vão pagar?</p>
           <div class="pessoas_container container">
-            <input class="botao botao_lateral" type="button" value="-" />
+            <input
+              class="botao botao_lateral"
+              type="button"
+              value="-"
+              id="botaoPessoasMenos"
+            />
             <input
               class="pessoas_input"
               type="number"
               name="pessoas"
               id="pessoas"
               value="1"
+              min="1"
               step="1"
             />
-            <input class="botao botao_lateral" type="button" value="+" />
+            <input
+              class="botao botao_lateral"
+              type="button"
+              value="+"
+              id="botaoPessoasMais"
+            />
           </div>
         </div>
         <div class="taxa input">
           <p class="taxa_titulo">quanto é a taxa de serviço?</p>
           <div class="taxa_container container">
-            <input class="botao botao_lateral" type="button" value="-" />
+            <input
+              class="botao botao_lateral"
+              type="button"
+              value="-"
+              id="botaoTaxaMenos"
+            />
             <input
               class="taxa_input"
               type="number"
@@ -73,14 +89,22 @@
               value="10"
               step="0.1"
             />
-            <input class="botao botao_lateral" type="button" value="+" />
+            <input
+              class="botao botao_lateral"
+              type="button"
+              value="+"
+              id="botaoTaxaMais"
+            />
           </div>
         </div>
         <a href="../resultado/index.html"
-          ><button class="botao botao_grande" type="submit">calcular</button></a
+          ><button class="botao botao_grande" type="submit" id="botaoCalcular">
+            calcular
+          </button></a
         >
       </section>
     </main>
     <footer></footer>
   </body>
+  <script src="../home/main.js"></script>
 </html>
